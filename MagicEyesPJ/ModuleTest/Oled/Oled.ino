@@ -66,11 +66,11 @@ const unsigned char bitmap [] PROGMEM=
 
 
 void setup() {
-    
-  display.begin(0x3C);
 
+  display.begin(0x3C);
+ 
   display.clearDisplay();
-  
+
   display.display();
   delay(2000);
 
