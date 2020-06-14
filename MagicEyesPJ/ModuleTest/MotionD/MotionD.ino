@@ -9,14 +9,14 @@ void setup() {
 
  
 void loop() {
-    val = digitalRead(digitalPin); //อ่านค่าสัญญาณ digital ขา8 ที่ต่อกับเซ็นเซอร์
-    Serial.print("val = "); // พิมพ์ข้อมความส่งเข้าคอมพิวเตอร์ "val = "
-    Serial.println(val); // พิมพ์ค่าของตัวแปร val
-    if (val == 0) { // ค่า เป็น 0 ตรวจจับเจอวัตถุ สั่งให้ไฟ LED ติด
-        digitalWrite(ledPin, HIGH); // สั่งให้ LED ติดสว่าง
+    val = digitalRead(digitalPin); //read digital pin ...
+    Serial.print("val = "); // print "val = "
+    Serial.println(val); // print result of val
+    if (val == 0) { // val = 0 open LED
+        digitalWrite(ledPin, HIGH); // LED ON
     }
     else {
-        digitalWrite(ledPin, LOW); // สั่งให้ LED ดับ
+        digitalWrite(ledPin, LOW); // LED OFF
     }
     delay(100);
 }
