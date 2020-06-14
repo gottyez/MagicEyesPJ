@@ -9,12 +9,13 @@ void setup() {
 
  
 void loop() {
-    val = digitalRead(digitalPin); //read digital pin8
-    Serial.print("val = ");
-    Serial.println(val);
-    if (val == 0) { // val = 0 LED ON
+    val = digitalRead(digitalPin); //read digital pin ...
+    Serial.print("val = "); // print "val = "
+    Serial.println(val); // print result of val
+    if (val == 0) { // val = 0 open LED
         digitalWrite(ledPin, HIGH); // LED ON
-    }else {
+    }
+    else {
         digitalWrite(ledPin, LOW); // LED OFF
     }
     delay(100);
