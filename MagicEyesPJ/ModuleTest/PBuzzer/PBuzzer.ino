@@ -5,8 +5,12 @@ void setup(){
 }
 
 void loop(){
-  tone(buzzer, 1000); // Send 1KHz sound signal
-  delay(1000);        // wait 1 sec
+  tone(buzzer, 300); // Send 1KHz sound signal
+  delay(100);        // wait 1 sec  
+  tone(buzzer, 500); // Send 1KHz sound signal
+  delay(100);        // wait 1 sec
+  tone(buzzer, 300); // Send 1KHz sound signal
+  delay(100);        // wait 1 sec
   noTone(buzzer);     // Stop sound
   delay(1000);        // wait 1 sec
 }

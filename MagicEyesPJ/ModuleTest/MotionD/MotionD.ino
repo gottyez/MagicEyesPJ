@@ -1,5 +1,5 @@
 int ledPin = 2;
-int digitalPin = 8;
+int digitalPin = 7;
 int val = 0;
 void setup() {
     pinMode(ledPin, OUTPUT); // sets the pin as output
