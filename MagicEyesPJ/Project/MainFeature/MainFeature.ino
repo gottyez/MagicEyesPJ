@@ -232,7 +232,7 @@ void loop() {
                   noTone(buzzer);
 
                 display.clearDisplay();
-                display.drawBitmap(0, 0, hapeyes, 128, 32, 1); // Draw Angry bitmap
+                display.drawBitmap(0, 0, hapeyes, 128, 32, 1); // Draw happy bitmap
                 display.display();
                 delay(2000);
 
@@ -245,7 +245,6 @@ void loop() {
                 display.display();
                 delay(200);
           }
-delay(0.0001);
     }
 
 }
