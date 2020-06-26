@@ -169,7 +169,6 @@ void setup() {
 
     pinMode(trigPin, OUTPUT);    //Ultrasonic
     pinMode(echoPin, INPUT);
-    Serial.begin(9600);
 
   pinMode(buzzer, OUTPUT);      //Buzzer
 
