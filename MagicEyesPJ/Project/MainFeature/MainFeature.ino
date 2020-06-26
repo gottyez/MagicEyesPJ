@@ -174,8 +174,7 @@ void setup() {
   pinMode(buzzer, OUTPUT);      //Buzzer
 
   display.begin(0x3C);          //OLED
-  display.clearDisplay();
-  display.display();
+
 }
 
 
